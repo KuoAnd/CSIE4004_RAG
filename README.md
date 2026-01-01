@@ -1,18 +1,18 @@
-# 🔍 RAG 語音檢索問答系統
+# RAG 語音檢索問答系統
 
 本專案是一套結合 **語音輸入** 與 **RAG 檢索技術** 的智慧問答系統，使用者可透過語音上傳，系統會自動轉錄、嵌入並建立向量資料庫，最終由 Gemini API 回答使用者的問題。
 
 ---
 
-## 🚀 快速開始
+## 快速開始
 
 ### 1. 前置準備
 
-#### 🗒️ 啟用 Notebook
+#### 啟用 Notebook
 
 - 將本 Notebook 上傳至 [Google Colab](https://colab.research.google.com) （建議但非必要）
 
-#### 🔑 填入 API 金鑰
+#### 填入 API 金鑰
 
 - 在 `Environment` 區段填入你的 `GEMINI_API`：
   ```python
@@ -20,7 +20,7 @@
   ```
 - 若尚未申請金鑰，請參考官方文件：[Gemini API 金鑰教學](https://ai.google.dev/gemini-api/docs?hl=zh-tw)
 
-#### 📁 設定資料夾路徑
+#### 設定資料夾路徑
 
 請手動設定以下變數：
 
@@ -29,7 +29,7 @@
 
  你可以預先將 MP3 檔放進 `audio_folder`，或稍後使用介面即時上傳
 
-#### 🔤 上傳字體
+#### 上傳字體
 
 請將一款支援繁體中文的字體（如 `NotoSansCJK-Regular.ttc`，見附件）上傳至你設定的 `font_path`。
 
@@ -59,7 +59,7 @@
 
 ---
 
-## ⚙️ 系統簡介
+## 系統簡介
 
 本系統包含以下核心流程：
 
@@ -69,6 +69,6 @@
 
 ---
 
-## 🎥 Demo 展示
+## Demo 展示
 
-📺 [功能示範影片](https://www.youtube.com/watch?v=YX8PeTnjxFg)
+[功能示範影片](https://www.youtube.com/watch?v=YX8PeTnjxFg)
